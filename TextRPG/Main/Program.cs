@@ -4,11 +4,16 @@ namespace TextRPG
 {
     class Program
     {
-        GameObject go = new GameObject();
         static void Main(string[] args)
         {
-            Monster monster = new Monster();
-            Console.WriteLine("Hello world");
+            Player player = new Player();
+            player.Init("김대민");
+
+            LobbyScene lobbyScene = new LobbyScene();
+            lobbyScene.InitLobby();
+            lobbyScene.ShowLobby(player);
+            
         }
+
     }
 }
