@@ -11,6 +11,10 @@ namespace TextRPG
 {
     internal class Item : GameObject
     {
+        public Item()
+        {
+
+        }
         public Item(string name , ItemKinds itemKind, int gold, bool buyAble)
         {
             Name = name;

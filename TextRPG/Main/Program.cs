@@ -12,8 +12,6 @@ namespace TextRPG
             LobbyScene lobbyScene = new LobbyScene();
             lobbyScene.InitLobby();
             lobbyScene.ShowLobby(player);
-            
         }
-
     }
 }
